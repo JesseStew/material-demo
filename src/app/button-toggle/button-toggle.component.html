@@ -1,1 +1,32 @@
-<p>button-toggle works!</p>
+<br />
+<br />
+
+<div class="mat-display-1">Button Toggle / Button Toggle Groups</div>
+
+<div>
+  <mat-button-toggle #toggleBtn checked disableRipple disabled>Toggle</mat-button-toggle>
+  {{toggleBtn.checked}}
+</div>
+
+<br />
+
+<div>
+
+  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
+    <mat-button-toggle value="angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="react">React</mat-button-toggle>
+    <mat-button-toggle value="vue">Vue</mat-button-toggle>
+  </mat-button-toggle-group>
+  {{toggleGroup.value}}
+</div>
+
+<br />
+
+<div>
+  <mat-button-toggle-group #toggleGroup2="matButtonToggleGroup" multiple>
+    <mat-button-toggle value="angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="react">React</mat-button-toggle>
+    <mat-button-toggle value="vue">Vue</mat-button-toggle>
+  </mat-button-toggle-group>
+  {{toggleGroup2.value}}
+</div>
