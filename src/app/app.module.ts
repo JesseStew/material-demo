@@ -16,6 +16,7 @@ import { SelectComponent } from './select/select.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     ProgressSpinnerComponent,
     SelectComponent,
     NavbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
