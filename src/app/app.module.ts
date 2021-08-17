@@ -12,6 +12,8 @@ import { IconComponent } from './icon/icon.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { BadgesComponent } from './badges/badges.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
+import { SelectComponent } from './select/select.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
     IconComponent,
     TabsComponent,
     BadgesComponent,
-    ProgressSpinnerComponent
+    ProgressSpinnerComponent,
+    SelectComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
