@@ -16,6 +16,8 @@ import { MatGridListModule } from '@angular/material/grid-list'
 import { MatExpansionModule } from '@angular/material/expansion'
 import { MatCardModule } from '@angular/material/card'
 import { MatStepperModule } from '@angular/material/stepper'
+import { MatInputModule } from '@angular/material/input'
+import { MatFormFieldModule } from '@angular/material/form-field'
 
 const MaterialComponents = [
   MatButtonModule,
@@ -33,7 +35,9 @@ const MaterialComponents = [
   MatGridListModule,
   MatExpansionModule,
   MatCardModule,
-  MatStepperModule
+  MatStepperModule,
+  MatInputModule,
+  MatFormFieldModule
 ]
 
 @NgModule({
